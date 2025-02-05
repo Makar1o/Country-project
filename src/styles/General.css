@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+html {
+  background-color: var(--color-very-dark-blue);
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.bold-txt {
+  font-weight: 600;
+}
