@@ -7,6 +7,7 @@ import "./styles/General.css";
 import "./styles/Header.css";
 import "./styles/Filter.css";
 import "./styles/CountryDetails.css";
+import "./styles/Theme.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

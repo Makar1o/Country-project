@@ -1,3 +1,7 @@
+.country-details-page-container {
+  height: 800px;
+}
+
 .details-flag {
   max-width: 560px;
   height: 400px;

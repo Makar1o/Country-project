@@ -1,0 +1,80 @@
+body.dark-theme {
+  --color-dark-blue: hsl(209, 23%, 22%);
+  --color-very-dark-blue: hsl(207, 26%, 17%);
+  --color-very-dark-blue-text: hsl(200, 15%, 8%);
+  --color-dark-gray: hsl(0, 0%, 52%);
+  --color-very-light-gray: hsl(0, 0%, 98%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+body.light-theme {
+  --color-dark-blue: hsl(0, 0%, 100%);
+  --color-very-dark-blue: hsl(0, 0%, 70%);
+  --color-very-dark-blue-text: hsl(200, 15%, 8%);
+  --color-dark-gray: hsl(0, 0%, 100%);
+  --color-very-light-gray: hsl(209, 23%, 22%);
+  --color-white: hsl(207, 26%, 17%);
+  --color-light-background: hsl(0, 0%, 98%); /* Додаємо фон для світлої теми */
+  --color-light-hover: hsl(0, 0%, 90%); /* Фон для hover */
+  --color-light-hover-text: hsl(0, 0%, 10%); /* Текст для hover */
+  --color-light-button-bg: hsl(0, 0%, 100%);
+  /* Колір фону для кнопки фільтрації */
+  --color-light-button-text: hsl(
+    0,
+    0%,
+    100%
+  ); /* Колір тексту для кнопки фільтрації */
+  --color-light-icon: hsl(0, 0%, 10%); /* Колір іконки для світлої теми */
+}
+
+/* Стилі для кнопок та елементів при hover */
+button:hover {
+  background-color: var(--color-light-hover);
+  color: var(--color-light-hover-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Стилі для кнопки фільтрації */
+.filter-button {
+  background-color: var(--color-light-button-bg);
+  color: var(--color-light-button-text);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
+
+/* Стилі для лупи (іконка пошуку) */
+.search-icon {
+  fill: var(--color-light-icon);
+  transition: fill 0.3s ease;
+}
+
+body.light-theme .search-icon {
+  fill: var(--color-light-icon); /* Залишаємо колір для світлої теми */
+}
+
+/* Стилі для фільтрації */
+img {
+  filter: brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+body.light-theme img {
+  filter: brightness(1); /* Яскравість для світлої теми */
+}
+
+/* Стилі для фону */
+body {
+  background-color: var(--color-light-background);
+  transition: background-color 0.3s ease;
+}
+
+body.light-theme {
+  background-color: var(--color-light-background);
+}

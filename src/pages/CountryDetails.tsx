@@ -52,7 +52,7 @@ const CountryDetails: React.FC = () => {
     : "N/A";
 
   return (
-    <div>
+    <div className="country-details-page-container">
       <Header />
       <div className="back-btn-container">
         <button className="back-btn" onClick={() => navigate(-1)}>
