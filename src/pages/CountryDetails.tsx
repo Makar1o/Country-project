@@ -65,7 +65,7 @@ const CountryDetails: React.FC = () => {
           >
             <path
               d="M5 12L11 6M5 12L11 18M5 12H19"
-              stroke="white"
+              stroke="var(--color-white)"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"

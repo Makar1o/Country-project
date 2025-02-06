@@ -7,11 +7,12 @@ interface CountryProps {
     population: number;
     region: string;
     capital: string[];
+    borders?: string[]; // Додаємо поле для кордонів
   };
 }
 
 const CountryCard: React.FC<CountryProps> = ({ country }) => {
-  const { flags, name, population, region, capital } = country;
+  const { flags, name, population, region, capital, borders } = country;
 
   return (
     <li className="card">
@@ -25,6 +26,22 @@ const CountryCard: React.FC<CountryProps> = ({ country }) => {
             <p className="context">
               Capital: {capital.length ? capital[0] : "No capital"}
             </p>
+            {borders && borders.length > 0 && (
+              <div className="borders">
+                <p className="context">Borders:</p>
+                <div className="border-list">
+                  {borders.map((border) => (
+                    <Link
+                      key={border}
+                      to={`/country/${border}`}
+                      className="border-link"
+                    >
+                      {border}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </Link>

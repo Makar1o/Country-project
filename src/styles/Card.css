@@ -63,8 +63,15 @@
   background-color: var(--color-dark-blue);
   overflow: hidden;
   margin-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
 
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-color: #ffffff80; /* Напівпрозорий білий, як у пошуку */
+  background-color: rgba(255, 255, 255, 0.1); /* Легка зміна фону */
+}
 .card-link {
   text-decoration: none;
   color: inherit;
