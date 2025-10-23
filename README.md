@@ -32,14 +32,19 @@ Visit the live application: [CountryMaster](https://countrymaster1.netlify.app/)
 
 ### Clone the repository
 ```bash
-git clone <your-repo-url>
-cd countrymaster
+git clone [<your-repo-url>](https://github.com/Makar1o/Country-project.git)
+cd country-project
+```
 
 Install dependencies
-bash
+```bash
 npm install
+```
+
 Available Scripts
+```bash
 npm start
+```
 Runs the app in development mode.
 Open http://localhost:3000 to view it in your browser.
 
@@ -91,14 +96,3 @@ This project is licensed under the MIT License.
 Built with ❤️ using Create React App
 
 Happy exploring! 🌎✨
-
-text
-
-Цей оновлений README має:
-- 🎨 Сучасний дизайн з емодзі та бейджами
-- 🌐 Чітку інформацію про живу демо-версію
-- ✨ Описи функцій та технологій
-- 🚀 Покращені інструкції по встановленню
-- 📱 Професійний вигляд для GitHub репозиторію
-
-Хочете ще щось додати чи змінити в цьому README?
