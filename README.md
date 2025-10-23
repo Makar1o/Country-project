@@ -50,49 +50,41 @@ Open http://localhost:3000 to view it in your browser.
 
 The page will automatically reload when you make changes.
 You may also see any lint errors in the console.
-
+```bash
 npm test
+```
 Launches the test runner in interactive watch mode.
 See the section about running tests for more information.
 
+```bash
 npm run build
+```
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
-
+```bash
 npm run eject
+```
 Note: this is a one-way operation. Once you eject, you can't go back!
-
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
 🚀 Deployment
 Netlify Deployment
 This project is configured for easy deployment on Netlify:
 
 Push your code to GitHub
-
 Connect your repository to Netlify
-
 Set build command: npm run build
-
 Set publish directory: build
-
 Deploy!
 
 Manual Build
-bash
+```bash
 npm run build
+```
 The build folder contains the optimized production build ready for deployment.
 
-🤝 Contributing
-We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
-
-📄 License
-This project is licensed under the MIT License.
-
-👨‍💻 Developer
-Built with ❤️ using Create React App
-
 Happy exploring! 🌎✨
+
+💡 Author Ruslan Mykytyn - Design & Development
