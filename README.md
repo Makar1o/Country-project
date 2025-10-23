@@ -32,7 +32,7 @@ Visit the live application: [CountryMaster](https://countrymaster1.netlify.app/)
 
 ### Clone the repository
 ```bash
-git clone [<your-repo-url>](https://github.com/Makar1o/Country-project.git)
+git clone https://github.com/Makar1o/Country-project.git
 cd country-project
 ```
 
@@ -62,29 +62,19 @@ npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-```bash
-npm run eject
-```
-Note: this is a one-way operation. Once you eject, you can't go back!
-
 🚀 Deployment
 Netlify Deployment
 This project is configured for easy deployment on Netlify:
 
 Push your code to GitHub
+
 Connect your repository to Netlify
+
 Set build command: npm run build
+
 Set publish directory: build
+
 Deploy!
-
-Manual Build
-```bash
-npm run build
-```
-The build folder contains the optimized production build ready for deployment.
-
 Happy exploring! 🌎✨
 
 💡 Author Ruslan Mykytyn - Design & Development
